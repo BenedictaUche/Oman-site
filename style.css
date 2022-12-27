@@ -591,12 +591,74 @@ button {
   margin-bottom: 0;
 }
 .media .media-body a {
-    color: #000000;
+  color: #000000;
+  text-decoration: none;
+  background-color: transparent;
 }
-.media .media-body a {
-    text-decoration: none;
-    background-color: transparent;
+
+/* Styling for category section */
+.upcoming-event-category .upcoming-event-category-table ul {
+  padding-left: 0;
+  margin-bottom: 0;
 }
+.upcoming-event-category .upcoming-event-category-table ul li {
+  list-style: none;
+  color: #707070;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Fira Sans", sans-serif;
+  padding: 0;
+  padding-bottom: 14px;
+}
+.upcoming-event-category .upcoming-event-category-table a {
+  color: #01AEFD;
+  text-decoration: none;
+  background-color: transparent;
+  transition: all 500ms ease;
+}
+.upcoming-event-category .upcoming-event-category-table a:hover {
+  text-decoration: none;
+  outline: none;
+  color:#333333;
+}
+.upcoming-event-category .upcoming-event-category-table ul li span {
+  float: right;
+}
+.upcoming-event-category .upcoming-event-category-table ul li i {
+  padding-right: 7px;
+  color: #252525;
+}
+
+
+/*styling for the tags section*/
+
+.sidebar-area .widget:last-child {
+  margin-bottom: 0;
+}
+.upcoming-event-tags .event-tags a {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  border: 1px solid #e7edf0;
+  padding: 5px 16px;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 0 7px 10px 0;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: transparent;
+  color: #707070;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.upcoming-event-tags .event-tags a:hover {
+  text-decoration: none;
+  outline: none;
+  background-color:#01AEFD;
+}
+
 
 
 
