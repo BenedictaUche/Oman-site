@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background: white; /* change menu color here */
+    
+  }
+  
+  .navbar a {
+    display: block;
+    padding: 1em;
+    color: black; /* change text color here */
+  }
+  
+  .navbar a:hover {
+    background:#bdb9b9
+  }

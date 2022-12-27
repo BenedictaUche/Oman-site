@@ -1,0 +1,138 @@
+.main-nav {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1;
+  }
+
+  .navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    list-style: none;
+   /* change menu color here */
+  }
+
+  .navbar a {
+    display: block;
+    padding: 1em;
+    color: black; /* change text color here */
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background:#01AEFD;
+    transition: all 500ms ease;
+  }
+  
+  .img {
+    width: 100%;
+    height: 80px;
+  }
+  
+  .logo .img {
+    display: block;
+    width: auto;
+    max-height: 100%;
+    z-index: 2;
+
+  }
+  .logo-img {
+    display: flex;
+    justify-content: center;
+  }
+  .nav-contain {
+    top: 12%;
+    width: 100%;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    /*background-color: #333;
+    color: #fff;*/
+  }
+  .nav-contain ul {
+    padding: 0;
+    list-style: none;
+    background: #87CEEB;
+  }
+  .nav-contain ul li {
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+    text-align: left;
+ 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .nav-contain ul li a {
+    display: block;
+    padding: 8px 25px;
+    color: #333;
+    text-decoration: none;
+  }
+  .nav-contain ul li a:hover {
+    color: #000;
+    background: #fff;
+    transition: all 500ms ease;
+  }
+  .nav-contain ul li ul.dropdown {
+    min-width: 250%; /* Set width of the dropdown */
+    background: white;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .nav-contain ul li:hover ul.dropdown {
+    display: block; /* Display the dropdown */
+  }
+  .nav-contain ul li ul.dropdown li {
+    display: block;
+  }
+
+  .navbar-toggle {
+    display: none;
+    cursor: pointer;
+  }
+  .navbar-content {
+    display: flex;
+    align-items: center;
+  }
+  .nav-btn {
+    display: none;
+    margin-left: 65%;
+  }
+  .bt {
+    border: none;
+    padding: 8px 8px;
+    font-weight: bold;
+    font-size: 40%;
+    text-transform: capitalize;
+  }
+  .bt1 {
+    background-color: #01AEFD;
+    color:#fff;
+  }
+  @media (max-width: 768px) {
+    .nav-contain ul {
+      display: none;
+    }
+    .navbar-toggle {
+      display: block;
+    }
+    .logo{
+      display: none;
+    }
+    .nav-btn {
+      display: block;
+    }
+    .Navbar__ToggleShow {
+      display: flex;
+    }
+  }
+  
+  

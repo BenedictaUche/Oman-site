@@ -1,0 +1,612 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  /* styling for hero section of the home page */
+
+  .section{
+    background: url("./images/oman_boy.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 100%;
+  }
+  
+  .btn {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .button {
+    border: none;
+    padding: 15px 32px;
+    font-weight: bold;
+    font-size: 80%;
+    margin-top: 25%;
+    margin-left: 3%;
+    border-radius: 20px;
+    text-transform: uppercase;
+  }
+  
+  .btn1 {
+    background-color: #01AEFD;
+    color: white
+  }
+  .btn1:hover {
+    background-color: #ffffff;
+    color: #01AEFD;
+  }
+  .btn2 {
+    background-color: #ffffff;
+    color: #01AEFD;
+    border: 2px solid #01AEFD;
+  }
+  .btn2:hover {
+    background-color: #01AEFD;
+    color: #ffffff;
+  }
+  /*button:hover {
+    background-color: #528AAE;
+  }*/
+
+  /* Styling for the How_TO page */
+  .how_section{
+    background: url("./images/oman_boy.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70%;
+    width: 100%;
+    opacity: 0.5;
+  }
+  .how_to p {
+    text-align: center !important;
+  }
+
+  /*Stling for the diabetes fact page */
+
+  main {
+    background-color:#fafafa;
+  }
+  .diab_contain {
+    margin-top: 10%;
+    margin-left: 7%;
+    justify-items: center;
+  }
+  .blog {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    background-color: #ffffff;
+  }
+  .blog_txt {
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+  .blog_txt p {
+    font-size: medium;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #9C9C9C;
+  }
+  .blog_txt span a {
+    text-decoration: none;
+  }
+  .blog_txt span a:hover {
+    color: black;
+  }
+  .blog_img img {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .how_to p {
+    position: relative;
+    z-index: 4;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #000;
+    float: right;
+    margin-top: 20%;
+    margin-right: 45% !important;
+    text-align: center;
+    border-bottom: 1px solid black;
+  }
+
+  /*Styling for the diabetes fact single page */
+  .one {
+    margin-top:10%;
+  }
+  #hero-img img{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.5;
+  }
+  /*Styling for How to get diabetes page */
+
+  #container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 7%;
+  }
+  #sub-contain {
+    margin-left: 4%;
+  }
+  #sub-contain img {
+    border-radius: 8px;
+  }
+  #sub-contain h2 {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 37px;
+    color: #000;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-family: 'Lato', sans-serif;
+  }
+  #sub-contain p {
+    font-family: 'Lato', sans-serif;
+  }
+  #sub-contain .text {
+    border-top: 1px solid #d3d3d3;
+    width: 90%;
+  }
+  #sub-contain .txt {
+    margin-top: 3%;
+    font-family: 'Lato', sans-serif;
+  }
+  #sub-contain h3 {
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 4%;
+    font-family: 'Lato', sans-serif;
+  }
+  #images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  #search {
+    display: flex;
+    flex-direction: column;
+    background-color: #faf9f2;
+    border-radius: 4%;
+    margin-bottom: 7%;
+  }
+  #search p {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    margin-left: 6%;
+    font-size: 25px;
+  }
+  #search input[type="text"] {
+    background-color: #3f6b92;
+    margin-bottom: 7%;
+    margin-top: 2%;
+    margin-left: 6%;
+    border: none;
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 4px;
+  }
+  #search input::placeholder {
+    color: #d3d3d3;
+    font-style: italic;
+  }
+  .categories {
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+    font-family: 'Lato', sans-serif;
+    border-radius: 4%;
+  }
+  .categories h3 {
+    font-size: 25px;
+    margin-top: 7%;
+    margin-left: 11%;
+    margin-bottom: 6%;
+  }
+  .arrows ul, .arrows li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 6%;
+  }
+  .arrows ul li {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  .arrows ul li a {
+    position: relative;
+    font-size: 16px;
+    line-height: 24px;
+    color: #01AEFD;
+    display: block;
+    font-weight: 400;
+    padding-left: 20px;
+    transition: all 500ms ease;
+    text-decoration: none;
+  }
+  .arrows ul li a:hover {
+    text-decoration: none;
+    outline: none;
+    color:#333333;
+}
+  .arrows ul li a:before {
+    font-family: 'Font Awesome 5 Free';
+    content: "\f061";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: block;
+    line-height: 24px;
+    font-size: 12px;
+    color: #3f6b92;
+    font-weight: 800;
+  }
+
+  /*styling for diabetes_types page*/
+  .line, .type-one, .type-two {
+    margin-bottom: 7%;
+  }
+
+  /* styling for the signs and symptoms page */
+ #sub-contain .unordered {
+  font-family: 'Lato', sans-serif;
+ }
+ #sub-contain .unordered li {
+  position: relative;
+  margin-bottom: 15px;
+  font-weight: bold;
+ }
+
+
+ /*Styling for why diabetes matter page */
+
+ .note {
+  margin-bottom: 5%;
+ }
+ .note a {
+  text-decoration: none;
+ }
+ .note a:hover {
+  color:#d3d3d3;
+ }
+ #sub-contain .ordered {
+  font-family: 'Lato', sans-serif;
+ }
+ #sub-contain .ordered li h4 {
+  margin-bottom: 2%;
+ }
+ #sub-contain .ordered li p {
+  margin-bottom: 2%;
+ }
+
+ /* styling for the differences page */
+
+ .ordered_one .one {
+  margin-bottom: 4%;
+  margin-top: 0%;
+ }
+ .ordered_one .two {
+  margin-bottom: 4%;
+ }
+ /* styling for the monitoring page */
+
+ .monitoring {
+  font-family: 'Lato', sans-serif;
+ }
+ .monitoring .text_one {
+  margin-bottom: 3%;
+  font-weight: bold;
+ }
+
+ /*Styling for guidelines page */
+
+ .toggle-content {
+   display: none;
+ }
+ .toggle-div {
+  display: flex;
+  flex-direction: column;
+ }
+.toggle-button {
+  height: 4vh;
+  width: 50vw;
+  margin-left: 24%;
+}
+.unknown {
+  margin-bottom: 5%;
+}
+
+/* Styling for the conferences page
+.conf-one {
+  background: url("./images/conf01.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+}
+.conf-two {
+  background: url("./images/conf02.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+}
+.conf-three {
+  background: url("./images/conf03.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+}
+.conf-four {
+  background: url("./images/conf03.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+}
+.conf-five {
+  background: url("./images/conf02.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+}
+.conf-six {
+  background: url("./images/conf01.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+}
+.conf-contain {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+}
+*/
+.col-lg-8 {
+  -ms-flex: 0 0 66.666667%;
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+}
+.col-md-12 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.events-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.col-md-6 {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.single-event-two {
+  position: relative;
+  color: #ffffff;
+  border-radius: 3px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.mb35 {
+  margin-bottom: 35px;
+}
+.single-event-two .link-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  z-index: 9999;
+}
+.event-section-slide .single-event-two img {
+  height: auto;
+}
+.single-event-two img {
+  width: 100%;
+  vertical-align: middle;
+  border-style: none;
+  transition: all 500ms ease;
+  transform: scale(1);
+}
+.single-event-two .thumb-image-text {
+  position: absolute;
+  bottom: 24px;
+  left: 30px;
+  z-index: 10;
+  text-align: left;
+}
+.pull-left {
+  float: left;
+}
+.single-event-two .thumb-image-text .h4 {
+  font-size: 22px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+}
+.mr20 {
+  margin-right: 20px;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fa-clock-o:before {
+  content: "\f017";
+}
+/* styling for the date */
+.single-event-two .thumb-image-date {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+  border: 6px double #ffffff;
+  z-index: 10;
+}
+.single-event-two .thumb-image-date p {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #252525;
+  background: #ffffff;
+  padding: 1px 8px;
+  margin-bottom: 0px;
+  margin: 2px;
+}
+
+.conf-flex {
+  display: flex;
+  flex-direction: row;
+  margin: 6%;
+  justify-content: center;
+}
+/*styling for the aside bar in the conferences page */
+.aside {
+  margin-left: 5%;
+  padding: 36px 25px 26px 25px;
+  border: 1px solid #eaf0f2;
+  border-radius: 2px;
+}
+.aside .widget {
+  margin-bottom: 54px;
+}
+.dis-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.aside input {
+  background: #f9fbfc;
+  border: 1px solid #eaf0f2;
+}
+button, input {
+  overflow: visible;
+}
+.aside button {
+  border: 1px solid #eaf0f2;
+  padding: 12px 20px;
+  border-left: 0;
+  background: #f9fbfc;
+  cursor: pointer;
+}
+button, select {
+  text-transform: none;
+}
+button, input {
+  overflow: visible;
+}
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+button {
+  border-radius: 0;
+}
+.sidebar-area .sidebar-input button i {
+    color: #a1a1a1;
+}
+/* Upcoming events section */
+
+.widget-title {
+  color: #252525;
+  margin-bottom: 29px;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Fira Sans", sans-serif;
+  line-height: 26px;
+}
+.upcomming-event .media {
+  margin-bottom: 20px;
+}
+.media {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+.media img {
+  width: 40%;
+  height: 20%;
+}
+.mr-3, .mx-3 {
+  margin-right: 1rem!important;
+}
+.media-body {
+  -ms-flex: 1;
+  flex: 1;
+}
+.upcomming-event .media h5 {
+  color: #252525;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Fira Sans", sans-serif;
+  line-height: 26px;
+  margin-bottom: 3px;
+  color: #252525;
+}
+.upcomming-event .media p {
+  color: #a1a1a1;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.media .media-body a {
+    color: #000000;
+}
+.media .media-body a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+
+ /*MediaQuery to make screen responsive */
+ @media only screen and (max-width: 768px) {
+  .section {
+    height: 50%;
+    width: 100%;
+  }
+  .btn {
+    display: none;
+  }
+ }

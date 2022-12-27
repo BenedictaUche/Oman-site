@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Diabetes Guidelines</title>
+        <link href="/style.css" rel="stylesheet" type="text/css" />
+        <link href="/nav.css" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div id="nav"></div>
+        <section class="how_section">
+          <div class="how_to">
+              <p class="middle">Diabetes Guidelines</p>
+          </div>
+        </section>
+        <div class="toggle-div">
+            <button class="toggle-button" id="toggle-button">Canadian Diabetes Clinical Practice Guidelines 2018</button>
+            <div class="toggle-content" id="toggle-content">
+                <a href="http://www.canadianjournalofdiabetes.com/article/S1499-2671(13)00045-2/abstract http://guidelines.diabetes.ca/cpg">Read More ..</a>
+            </div>
+            <button class="toggle-button" id="toggle-button">Canadian Diabetes Clinical Practice Guidelines 2018</button>
+            <div class="toggle-content" id="toggle-content">
+                <a href="http://www.canadianjournalofdiabetes.com/article/S1499-2671(13)00045-2/abstract http://guidelines.diabetes.ca/cpg">Read More ..</a>
+            </div>
+            <button class="toggle-button" id="toggle-button">Canadian Diabetes Clinical Practice Guidelines 2018</button>
+            <div class="toggle-content" id="toggle-content">
+                <a href="http://www.canadianjournalofdiabetes.com/article/S1499-2671(13)00045-2/abstract http://guidelines.diabetes.ca/cpg">Read More ..</a>
+            </div>
+            <button class="toggle-button" id="toggle-button">Canadian Diabetes Clinical Practice Guidelines 2018</button>
+            <div class="toggle-content" id="toggle-content">
+                <a href="http://www.canadianjournalofdiabetes.com/article/S1499-2671(13)00045-2/abstract http://guidelines.diabetes.ca/cpg">Read More ..</a>
+            </div>
+            <button class="toggle-button" id="toggle-button">Canadian Diabetes Clinical Practice Guidelines 2018</button>
+            <div class="toggle-content" id="toggle-content">
+                <a href="http://www.canadianjournalofdiabetes.com/article/S1499-2671(13)00045-2/abstract http://guidelines.diabetes.ca/cpg">Read More ..</a>
+            </div>
+        </div>
+        <script src="/script.js"></script>
+        <script src="/nav.js"></script>
+        <script>
+            const toggleButton = document.getElementById('toggle-button');
+            const toggleContent = document.getElementById('toggle-content');
+
+            toggleButton.addEventListener('click', function() {
+                if (toggleContent.style.display === 'none') {
+                    toggleContent.style.display = 'block';
+                } else {
+                    toggleContent.style.display = 'none';
+                }
+            });
+        </script>
+    </body>
+
+</html>
