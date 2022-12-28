@@ -443,6 +443,7 @@
   border-style: none;
   transition: all 500ms ease;
   transform: scale(1);
+  padding-right: 3%;
 }
 .single-event-two .thumb-image-text {
   position: absolute;
@@ -652,12 +653,12 @@ button {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-
 .upcoming-event-tags .event-tags a:hover {
   text-decoration: none;
   outline: none;
   background-color:#01AEFD;
 }
+
 
 
 
