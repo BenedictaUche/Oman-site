@@ -93,11 +93,12 @@
   .nav-contain ul li ul.dropdown li {
     display: block;
   }
-
+  /*
   .navbar-toggle {
     display: none;
     cursor: pointer;
   }
+  */
   .navbar-content {
     display: flex;
     align-items: center;
@@ -117,6 +118,7 @@
     background-color: #01AEFD;
     color:#fff;
   }
+  
   @media (max-width: 768px) {
     .nav-contain ul {
       display: none;
@@ -134,5 +136,6 @@
       display: flex;
     }
   }
+  
   
   

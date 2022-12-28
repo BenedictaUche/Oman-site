@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Upcoming Events</title>
+        <link href="/style.css" rel="stylesheet" type="text/css" />
+        <link href="/nav.css" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div id="nav"></div>
+        <section class="how_section">
+          <div class="how_to">
+              <p class="middle">Upcoming Events</p>
+          </div>
+        </section>
+        <div class="toggle-container">
+            <div class="contain-useful">
+                <div class="contain-content">
+                    <a href="#">
+                        <p>Advances in Insulin Therapy: A Review of New Insulin Glargine 300 Units/mL in the Management of Diabetes</p>
+                    </a>
+                </div>
+                <div class="contain-content">
+                    <a href="#">
+                        <p>A Case of Constant Polyuria in an Insulin-Dependent Child with Diabetes</p>
+                    </a> 
+                </div>
+                <div class="contain-content">
+                    <a href="#">
+                        <p>Management of Type 2 Diabetes in the Setting of Morbid Obesity: How can Over-Weight be Prevented or Reversed?</p>
+                    </a>
+                </div>
+                <div class="contain-content">
+                    <a href="#">
+                        <p>Role of Emerging Insulin Technologies in the Initiation and Intensification of Insulin Therapy for Diabetes in Primary Care</p>
+                    </a>
+                </div>
+                <div class="contain-content">
+                    <a href="https://www.idf.org/e-library/guidelines/89-pocketbook-for-management-of-diabetes-in-childhood-and-adolescence-in-under-resourced-countries-2nd-edition.html">
+                        <p>Pocket management for Diabetes in Childhood and Adolescence in under-resourced countries, 2nd Edition</p>
+                    </a> 
+                </div>
+                <div class="contain-content">
+                    <a href="#">
+                        <p>Treatment Approach to Patients with Severe Insulin Resistance</p>
+                    </a>
+                </div>
+                <div class="contain-content">
+                    <a href="#">
+                        <p>Alzheimer's Disease is Type-3 Diabetes - Evidence Revealed</p>
+                    </a>
+                </div>
+                <div class="contain-content">
+                    <a href="#">
+                        <p>The Cardiovascular Safety of Diabetes Drugs - Insights from the Rosiglitazone Experience</p>
+                    </a>
+                </div>
+                <div class="contain-content">
+                    <a href="https://www.idf.org/e-library/guidelines/87-diabetes-and-ramadan-practical-25.html">
+                        <p>IDF Diabetes and Ramadan: Practical Guidelines</p>
+                    </a>
+                </div>
+                <div class="contain-content">
+                    <a href="#">
+                        <p>Diabetic Sensory and Motor Neuropathy</p>
+                    </a>
+                </div>
+                <div class="contain-content">
+                    <a href="#">
+                        <p>Acid-Base Problems in Diabetic Ketoacidosis</p>
+                    </a>
+                </div>
+                <div class="contain-content">
+                    <a href="#">
+                        <p>Rare Presentations of Ketoacidosis: Diabetics Ketoalkalosis and ketoacidosis Secondary to Fasting and Muscular Dystrophy</p>
+                    </a>
+                </div>
+                <div class="contain-content">
+                    <a href="#">
+                        <p>2013 ACC/AHA Guideline on the Treatment of Blood Cholesterol to Reduce Atherosclerotic Cardiovascular Risk in Adults</p>
+                    </a>
+                </div>
+                <div class="contain-content">
+                    <a href="http://www.medscape.com/viewarticle/817779?nlid=42083_1702&src=wnl_edit_medn_diab&uac=119180AY&spon=22">
+                        <p>This Time FDA Panel Endorses Diabetes Drug Dapagliflozin</p>
+                    </a>
+                </div>
+                <div class="contain-content">
+                    <a href=" http://www.medscape.com/viewarticle/815213">
+                        <p>World First Approval for Fenofibrate in Diabetic Retinopathy</p>
+                    </a>
+                </div>
+                <div class="contain-content">
+                    <a href="http://www.medscape.com/viewarticle/814964">
+                        <p>FDA Lifts Rosiglitazone Prescribing Restrictions (NOV. 25, 2013)</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <script src="/script.js"></script>
+        <script src="/nav.js"></script>
+        <script>
+            const toggleButton = document.getElementById('toggle-button');
+            const toggleContent = document.getElementById('toggle-content');
+
+            toggleButton.addEventListener('click', function() {
+                if (toggleContent.style.display === 'none') {
+                    toggleContent.style.display = 'block';
+                } else {
+                    toggleContent.style.display = 'none';
+                }
+            });
+        </script>
+    </body>
+    <footer>
+        this is the footer
+    </footer>
+
+</html>

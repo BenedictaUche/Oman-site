@@ -74,7 +74,7 @@ var html =
         </ul>\
       </div>\
       <div class="navbar-toggle">\
-        <i class="fas fa-bars" onclick="./script.js"></i>\
+        <i class="fas fa-bars"></i>\
       </div>\
     </div>\
   </nav>';
