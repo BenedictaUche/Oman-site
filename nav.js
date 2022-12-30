@@ -2,7 +2,7 @@ var html =
   '<nav class="main-nav">\
     <div class="logo-img">\
       <span class="logo">\
-      <a href="https://omandiabetes.org/?lang=en"><img src="/images/oman_logo.png" alt="Oman Diabetes Logo" class="img"/></a>\
+      <a href="#"><img src="/images/oman_logo.png" alt="Oman Diabetes Logo" class="img"/></a>\
       </span>\
     </div>\
     <div class="nav-contain">\
@@ -15,12 +15,12 @@ var html =
           <li><a href="index.html">Home</a></li>\
           <li><a href="register.html">Register</a></li>\
           <li>\
-            <a href="">About ODA</a>\
+            <a href="/pages/about_oda.html">About ODA</a>\
             <ul class="dropdown">\
-              <li><a href="https://omandiabetes.org/?page_id=1359&lang=en">Association Chairperson Word</a></li>\
-              <li><a href="https://omandiabetes.org/?page_id=1390&lang=en">Vision and Mission</a></li>\
-              <li><a href="https://omandiabetes.org/?page_id=2574&lang=en">Members</a></li>\
-              <li><a href="https://omandiabetes.org/?page_id=1691&lang=en">Gallery</a></li>\
+              <li><a href="/pages/about_oda.html#chairperson-word">Association Chairperson Word</a></li>\
+              <li><a href="/pages/about_oda.html#about-mission">Vision and Mission</a></li>\
+              <li><a href="/pages/about_oda.html#members-oda">Members</a></li>\
+              <li><a href="/pages/about_oda.html#">Gallery</a></li>\
             </ul>\
           </li>\
           <li>\
